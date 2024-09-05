@@ -21,9 +21,10 @@ Follow these steps to set up and run the project on your local machine.
 
 ### 1. Clone the Repository
 
-bash
+```bash
 git clone https://github.com/GawaleDhanshri/WeChat-App/tree/main
 cd WeChat-App
+```
 
 
 ### 2. Install Dependencies
@@ -32,18 +33,20 @@ cd WeChat-App
 
 Navigate to the client folder and install the necessary dependencies:
 
-bash
+```bash
 cd client
 npm install
+```
 
 
 #### Server
 
 Navigate to the server folder and install the necessary dependencies:
 
-bash
+```bash
 cd ../server
 npm install
+```
 
 
 ### 3. Running the Project
@@ -52,9 +55,10 @@ npm install
 
 After installing the dependencies, start the client side:
 
-bash
+```bash
 cd client
 npm run dev
+```
 
 
 The client will run on *http://localhost:5173*.
@@ -63,9 +67,10 @@ The client will run on *http://localhost:5173*.
 
 In a new terminal, navigate to the server directory and start the server:
 
-bash
+```bash
 cd server
 npm start
+```
 
 
 The server will run on *http://localhost:3000*.
@@ -79,7 +84,7 @@ To fully experience the chat features, you will need to create *two or more acco
 
 ## Folder Structure
 
-
+```
 ├── client
 │   ├── src
 │   ├── package.json
@@ -90,7 +95,7 @@ To fully experience the chat features, you will need to create *two or more acco
 │   ├── routes
 │   ├── package.json
 │   └── ...
-
+```
 
 - *client*: Contains the frontend code (React, Vite).
 - *server*: Contains the backend code (Node.js, Express).
