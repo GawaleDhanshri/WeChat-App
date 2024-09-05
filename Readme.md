@@ -69,7 +69,7 @@ In a new terminal, navigate to the server directory and start the server:
 
 ```bash
 cd server
-npm start
+npm run dev
 ```
 
 
